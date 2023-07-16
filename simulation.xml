@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<simulation>
+    <bookstores>
+        <bookstore name="bookstore1" maxRejectedOrders="5" maxQuantity="5">
+            <books>
+                <book id="100" price="100.0" />
+                <book id="200" price="200.0" />
+                <book id="303" price="150.0" />
+                <book id="302" price="120.0" />
+            </books>
+        </bookstore>
+        <bookstore name="bookstore2" maxRejectedOrders="5" maxQuantity="2">
+            <books>
+                <book id="100" price="120.0" />
+                <book id="101" price="120.0" />
+                <book id="102" price="120.0" />
+                <book id="201" price="120.0" />
+                <book id="202" price="120.0" />
+                <book id="401" price="120.0" />
+            </books>
+        </bookstore>
+        <bookstore name="bookstore3" maxRejectedOrders="5" maxQuantity="3">
+            <books>
+                <book id="200" price="120.0" />
+                <book id="201" price="120.0" />
+                <book id="202" price="120.0" />
+                <book id="105" price="120.0" />
+                <book id="100" price="120.0" />
+                <book id="300" price="120.0" />
+                <book id="400" price="120.0" />
+                <book id="401" price="120.0" />
+            </books>
+        </bookstore>
+    </bookstores>
+    <customers>
+        <customer name="Customer1">
+            <orders>
+                <order bookId="100" Quantity="2" />
+                <order bookId="105" Quantity="6" />
+            </orders>
+        </customer>
+    </customers>
+</simulation>
